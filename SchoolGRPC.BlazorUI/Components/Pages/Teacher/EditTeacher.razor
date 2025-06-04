@@ -1,0 +1,40 @@
+﻿@page "/teachers/edit/{TeacherId:int}"
+@rendermode InteractiveServer
+
+<h3>Sửa thông tin Giáo viên</h3>
+
+@if (teacherInput == null && !loadFailed)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (loadFailed)
+{
+    <p class="text-danger"><em>Lỗi tải thông tin: @errorMessage</em></p>
+}
+else if (teacherInput != null)
+{
+    <EditForm Model="@teacherInput" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <input type="hidden" @bind-value="teacherInput.Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Tên Giáo viên:</label>
+            <InputText @bind-Value="teacherInput.Name" class="form-control" />
+            <ValidationMessage For="@(() => teacherInput.Name)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Ngày sinh:</label>
+            <InputDate @bind-Value="teacherInput.Birthday" class="form-control" />
+            <ValidationMessage For="@(() => teacherInput.Birthday)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <button type="button" class="btn btn-secondary" @onclick="GoBack">Hủy</button>
+    </EditForm>
+}
+
+@if (!string.IsNullOrEmpty(errorMessageOnSubmit))
+{
+    <p class="text-danger mt-2">@errorMessageOnSubmit</p>
+}

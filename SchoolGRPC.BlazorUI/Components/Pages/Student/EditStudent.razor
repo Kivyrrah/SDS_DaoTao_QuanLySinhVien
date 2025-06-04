@@ -1,0 +1,60 @@
+﻿@page "/students/edit/{StudentId:int}"
+@rendermode InteractiveServer
+
+<h3>Sửa thông tin Sinh viên</h3>
+
+@if (studentInput == null && !loadFailed && !classRoomLoadFailed)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (loadFailed)
+{
+    <p class="text-danger"><em>Lỗi tải thông tin sinh viên: @loadErrorMessage</em></p>
+}
+else if (classRoomLoadFailed)
+{
+     <p class="text-danger"><em>Lỗi tải danh sách lớp học: @classRoomErrorMessage</em></p>
+}
+else if (studentInput != null && classRooms != null)
+{
+    <EditForm Model="@studentInput" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <input type="hidden" @bind-value="studentInput.Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Tên Sinh viên:</label>
+            <InputText @bind-Value="studentInput.Name" class="form-control" />
+            <ValidationMessage For="@(() => studentInput.Name)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Ngày sinh:</label>
+            <InputDate @bind-Value="studentInput.Birthday" class="form-control" />
+            <ValidationMessage For="@(() => studentInput.Birthday)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Địa chỉ:</label>
+            <InputText @bind-Value="studentInput.Address" class="form-control" />
+            <ValidationMessage For="@(() => studentInput.Address)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Lớp học:</label>
+            <InputSelect @bind-Value="studentInput.ClassRoomId" class="form-select">
+                <option value="0">-- Chọn Lớp học --</option>
+                @foreach (var classRoom in classRooms)
+                {
+                    <option value="@classRoom.Id">@classRoom.Name - (@classRoom.Subject) - GV: @classRoom.TeacherName</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="@(() => studentInput.ClassRoomId)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
+        <button type="button" class="btn btn-secondary" @onclick="GoBack">Hủy</button>
+    </EditForm>
+}
+
+@if (!string.IsNullOrEmpty(submitErrorMessage))
+{
+    <p class="text-danger mt-2">@submitErrorMessage</p>
+}

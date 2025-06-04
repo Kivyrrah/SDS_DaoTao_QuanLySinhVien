@@ -1,0 +1,12 @@
+C:\Users\truon\source\repos\SchoolGRPC.Shared\bin\Debug\net8.0\SchoolGRPC.Shared.deps.json
+C:\Users\truon\source\repos\SchoolGRPC.Shared\bin\Debug\net8.0\SchoolGRPC.Shared.dll
+C:\Users\truon\source\repos\SchoolGRPC.Shared\bin\Debug\net8.0\SchoolGRPC.Shared.pdb
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.csproj.AssemblyReference.cache
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.AssemblyInfoInputs.cache
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.AssemblyInfo.cs
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.csproj.CoreCompileInputs.cache
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.dll
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\refint\SchoolGRPC.Shared.dll
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\SchoolGRPC.Shared.pdb
+C:\Users\truon\source\repos\SchoolGRPC.Shared\obj\Debug\net8.0\ref\SchoolGRPC.Shared.dll

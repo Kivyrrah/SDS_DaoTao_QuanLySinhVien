@@ -1,0 +1,51 @@
+﻿@page "/classrooms"
+@rendermode InteractiveServer
+
+<h3>Danh sách Lớp học</h3>
+
+@if (classRooms == null && !loadFailed)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (loadFailed)
+{
+    <p class="text-danger"><em>Lỗi tải danh sách lớp học: @errorMessage</em></p>
+}
+else
+{
+    <button class="btn btn-success mb-3" @onclick="GoToAddClassRoom">Thêm Lớp học</button>
+    @if (classRooms.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên Lớp</th>
+                    <th>Môn học</th>
+                    <th>Giáo viên</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var classRoom in classRooms)
+                {
+                    <tr>
+                        <td>@classRoom.Id</td>
+                        <td>@classRoom.Name</td>
+                        <td>@classRoom.Subject</td>
+                        <td>@classRoom.TeacherName</td> 
+                        <td>
+                            <button class="btn btn-sm btn-primary" @onclick="() => GoToEditClassRoom(classRoom.Id)">Sửa</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteClassRoom(classRoom.Id)">Xóa</button>
+                            <!-- <button class="btn btn-sm btn-info" @onclick="() => ViewStudentsInClass(classRoom.Id)">Xem DS Sinh viên</button> -->
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Chưa có lớp học nào.</em></p>
+    }
+}

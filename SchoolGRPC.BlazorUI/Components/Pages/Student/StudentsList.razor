@@ -1,0 +1,76 @@
+﻿@page "/students"
+@rendermode InteractiveServer
+
+<h3>Danh sách Sinh viên</h3>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <div class="input-group">
+            <Microsoft.AspNetCore.Components.Forms.InputNumber @bind-Value="studentIdToSearch" class="form-control" placeholder="Nhập ID sinh viên để tìm" />
+            <button class="btn btn-outline-primary" type="button" @onclick="SearchStudentById" disabled="@(studentIdToSearch == null || studentIdToSearch <= 0)">
+                <span class="bi bi-search" aria-hidden="true"></span> Tìm theo ID
+            </button>
+        </div>
+        @if (!string.IsNullOrEmpty(searchErrorMessage))
+        {
+            <div class="text-danger mt-1 small">@searchErrorMessage</div>
+        }
+    </div>
+</div>
+
+@if (students == null && !loadFailed)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (loadFailed)
+{
+    <p class="text-danger"><em>Lỗi tải danh sách sinh viên: @errorMessage</em></p>
+}
+else
+{
+    <button class="btn btn-success mb-3" @onclick="GoToAddStudent">Thêm Sinh viên</button>
+    @if (students.Any())
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th @onclick="() => SortStudentsByName()" style="cursor: pointer;">
+                        Tên Sinh viên
+                        @if (currentSortColumn == "Name")
+                        {
+                            <span class="bi @(sortAscending ? "bi-arrow-down" : "bi-arrow-up")" aria-hidden="true"></span>
+                        }
+                    </th>
+                    <th>Ngày sinh</th>
+                    <th>Địa chỉ</th>
+                    <th>Lớp học</th>
+                    <th>Giáo viên lớp</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in students) 
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.Birthday.ToString("dd/MM/yyyy")</td>
+                        <td>@student.Address</td>
+                        <td>@student.ClassroomName</td>
+                        <td>@student.TeacherNameViaClassroom</td>
+                        <td>
+                            <button class="btn btn-sm btn-info" @onclick="() => ViewStudentDetail(student.Id)">Xem</button>
+                            <button class="btn btn-sm btn-primary" @onclick="() => GoToEditStudent(student.Id)">Sửa</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteStudent(student.Id)">Xóa</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Chưa có sinh viên nào.</em></p>
+    }
+}

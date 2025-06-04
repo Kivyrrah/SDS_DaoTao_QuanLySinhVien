@@ -1,0 +1,39 @@
+﻿@page "/students/view/{StudentId:int}"
+@rendermode InteractiveServer
+
+<h3>Chi tiết Sinh viên</h3>
+
+@if (isLoading)
+{
+    <p><em>Đang tải thông tin sinh viên...</em></p>
+}
+else if (loadFailed)
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+else if (foundStudent != null)
+{
+    <div class="card">
+        <div class="card-header">
+            <h4>ID: @foundStudent.Id - @foundStudent.Name</h4>
+        </div>
+        <div class="card-body">
+            <p><strong>Ngày sinh:</strong> @foundStudent.Birthday.ToString("dd/MM/yyyy")</p>
+            <p><strong>Địa chỉ:</strong> @foundStudent.Address</p>
+            <p><strong>Lớp học:</strong> @foundStudent.ClassroomName</p>
+            <p><strong>Giáo viên lớp:</strong> @foundStudent.TeacherNameViaClassroom</p>
+        </div>
+    </div>
+}
+else
+{
+    <p><em>Không tìm thấy thông tin cho sinh viên với ID này.</em></p>
+}
+
+<button class="btn btn-secondary mt-3" @onclick="GoBackToList">Quay lại Danh sách</button>
+@if (foundStudent != null)
+{
+    <button class="btn btn-primary mt-3 ms-2" @onclick="GoToEditStudent">Sửa thông tin</button>
+}

@@ -1,0 +1,45 @@
+﻿@page "/teachers"
+@rendermode InteractiveServer
+
+<h3>Danh sách Giáo viên</h3>
+
+@if (teachers == null && !loadFailed)
+{
+    <p><em>Đang tải...</em></p>
+}
+else if (loadFailed)
+{
+    <p class="text-danger"><em>Lỗi tải danh sách giáo viên: @errorMessage</em></p>
+}
+else
+{
+    <button class="btn btn-success mb-3" @onclick="GoToAddTeacher">Thêm Giáo viên</button>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Ngày sinh</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var teacher in teachers)
+            {
+                <tr>
+                    <td>@teacher.Id</td>
+                    <td>@teacher.Name</td>
+                    <td>@teacher.Birthday.ToString("dd/MM/yyyy")</td> 
+                    <td>
+                        <button class="btn btn-sm btn-primary" @onclick="() => GoToEditTeacher(teacher.Id)">Sửa</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteTeacher(teacher.Id)">Xóa</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    
+}

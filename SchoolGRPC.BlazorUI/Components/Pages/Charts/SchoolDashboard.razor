@@ -1,0 +1,57 @@
+﻿@page "/statistic" 
+@using AntDesign.Charts
+@using SchoolGRPC.Shared.Contracts.Data 
+@using SchoolGRPC.Shared.Contracts.Services 
+@using Title = AntDesign.Charts.Title 
+@rendermode InteractiveServer
+
+<h3>Dashboard Thống kê Học sinh</h3>
+
+<Row Gutter="16">
+    <Col Span="24" Style="margin-bottom: 16px;">
+        <Text>Chọn Giáo viên để xem thống kê:</Text>
+        @* SỬA TItem, ValueName, LabelName *@
+        <Select TItem="TeacherDto" 
+                TItemValue="int" 
+                DataSource="@teachersList"
+                @bind-Value="_selectedTeacherId"
+                ValueName="@nameof(TeacherDto.Id)" 
+                LabelName="@nameof(TeacherDto.Name)" 
+                Placeholder="-- Chọn Giáo viên --"
+                AllowClear="true"
+                ShowSearch="true"
+                Style="width: 300px;"
+                OnSelectedItemChanged="OnTeacherSelectedHandler">
+        </Select>
+    </Col>
+</Row>
+
+<Tabs DefaultActiveKey="1">
+    <TabPane Key="1" Tab="Số lượng Sinh viên theo Lớp">
+        @if (isLoadingChart)
+        {
+            <div style="text-align: center; padding: 50px;">
+                <Spin Size="@SpinSize.Large" Tip="Đang tải dữ liệu biểu đồ..." /> @* SpinSize.Large là Enum *@
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(chartErrorMessage))
+        {
+            <Alert Message="Lỗi tải biểu đồ" Description="@chartErrorMessage" Type="@AlertType.Error" ShowIcon="true" />
+        }
+        else if (chartData == null || !chartData.Any())
+        {
+            <Empty Description=@("Không có dữ liệu hiển thị cho giáo viên đã chọn hoặc chưa chọn giáo viên.") />
+        }
+        else
+        {
+            <div style="height: 400px;">
+                <AntDesign.Charts.Bar Data="@chartData" Config="@barChartConfig" @key="_selectedTeacherId" />
+            </div>
+        }
+    </TabPane>
+</Tabs>
+
+@if (!string.IsNullOrEmpty(pageErrorMessage))
+{
+    <Alert Message="Lỗi" Description="@pageErrorMessage" Type="@AlertType.Error" ShowIcon="true" Style="margin-top: 16px;" />
+}
