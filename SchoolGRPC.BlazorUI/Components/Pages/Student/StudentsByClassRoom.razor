@@ -1,7 +1,4 @@
 ﻿@page "/students/byclassroom/{ClassRoomId:int}"
-@inject IStudentService StudentClient 
-@inject IClassRoomService ClassRoomClient 
-@inject NavigationManager NavigationManager
 @rendermode InteractiveServer
 
 @if (isLoadingClassRoomInfo || isLoadingStudents)

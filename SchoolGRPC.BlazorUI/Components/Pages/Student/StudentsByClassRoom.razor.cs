@@ -13,6 +13,15 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Student
         [Parameter]
         public int ClassRoomId { get; set; }
 
+        [Inject]
+        public IStudentService StudentClient { get; set; } = default!;
+
+        [Inject]
+        public IClassRoomService ClassRoomClient { get; set; } = default!;
+
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
+
         // SỬA: Dùng StudentDto
         private List<StudentDto>? studentsList;
         private ClassRoomDto? currentClassRoom;

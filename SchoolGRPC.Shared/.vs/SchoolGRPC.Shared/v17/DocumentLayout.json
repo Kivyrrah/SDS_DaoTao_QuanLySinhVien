@@ -3,19 +3,37 @@
   "WorkspaceRootPath": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentsbyclassroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentsbyclassroom.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentdetailview.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\classroom\\classroomslist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentslist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\classroom\\classroomslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentsbyclassroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\charts\\schooldashboard.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\viewmodels\\studentinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\iclassroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\data\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\services\\studentserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,6 +45,15 @@
     {
       "AbsoluteMoniker": "D:0:0:{AFC24C8D-D22D-4D17-92E4-067EF47DCD98}|SchoolGRPC.Shared.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.shared\\contracts\\data\\getstudentsbyclassroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFC24C8D-D22D-4D17-92E4-067EF47DCD98}|SchoolGRPC.Shared.csproj|solutionrelative:contracts\\data\\getstudentsbyclassroomrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentdetailview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\classroom\\classroomslist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\classroom\\classroomslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFC24C8D-D22D-4D17-92E4-067EF47DCD98}|SchoolGRPC.Shared.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.shared\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,9 +84,6 @@
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\classroom\\editclassroom.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentslist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\services\\classroomserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,19 +91,10 @@
       "RelativeMoniker": "D:0:0:{AFC24C8D-D22D-4D17-92E4-067EF47DCD98}|SchoolGRPC.Shared.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\studentdetailview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\student\\addstudent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\charts\\schooldashboard.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\components\\pages\\charts\\schooldashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\data\\nhibernatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\services\\statisticsserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -132,22 +147,7 @@
       "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\repositories\\classroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4FEA89-85BE-4F72-A755-AAEC00E2DA1A}|..\\SchoolGRPC.Server\\SchoolGRPC.Server.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.server\\irepositories\\iclassroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\viewmodels\\studentinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CB57CD4-A5A9-4A74-8656-03CB1B22E18E}|..\\SchoolGRPC.BlazorUI\\SchoolGRPC.BlazorUI.csproj|c:\\users\\truon\\source\\repos\\schoolgrpc.blazorui\\viewmodels\\classroominputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -190,206 +190,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentDto.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\StudentDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Data\\StudentDto.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\StudentDto.cs",
-              "RelativeToolTip": "Contracts\\Data\\StudentDto.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAuwEYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "StudentInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:11:24.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClassRoomsList.razor.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwCoAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:30:10.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T08:04:39.962Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClassRoomsList.razor",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAACMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T01:41:20.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentDetailView.razor.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAUwEQAAAAAAAAAAAAAAA==",
+              "Title": "SchoolDashboard.razor.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:21:47.3Z",
+              "WhenOpened": "2025-06-04T07:04:50.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentsByClassRoom.razor.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor.cs",
               "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor.cs",
               "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwBkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T09:29:19.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StudentsByClassRoom.razor",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor",
               "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor",
               "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsByClassRoom.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-05T02:43:51.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetStudentsByClassRoomRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
-              "RelativeToolTip": "Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T02:48:37.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Contracts\\Services\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStudentService.cs",
-              "RelativeToolTip": "Contracts\\Services\\IStudentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:12:40.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwIEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:08:19.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Program.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Program.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:09:56.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:40:41.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeacherRepository.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T07:40:16.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClassRoomMap.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\ClassRoomMap.cs",
-              "RelativeDocumentMoniker": "Mappings\\ClassRoomMap.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\ClassRoomMap.cs",
-              "RelativeToolTip": "Mappings\\ClassRoomMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T01:40:57.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StudentMap.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\StudentMap.cs",
-              "RelativeDocumentMoniker": "Mappings\\StudentMap.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\StudentMap.cs",
-              "RelativeToolTip": "Mappings\\StudentMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:03:51.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EditClassRoom.razor",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T01:37:46.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "StudentsList.razor.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsList.razor.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentsList.razor.cs",
@@ -402,273 +258,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClassRoomServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentDetailView.razor.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:05:42.256Z",
+              "WhenOpened": "2025-06-04T09:21:47.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Teacher.cs",
-              "RelativeDocumentMoniker": "Models\\Teacher.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Teacher.cs",
-              "RelativeToolTip": "Models\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:03:43.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StudentDetailView.razor",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T07:48:48.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EditClassRoom.razor.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:21:46.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AddStudent.razor",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T07:47:38.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SchoolDashboard.razor.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwCoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T07:04:50.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SchoolDashboard.razor",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T07:04:14.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NHibernateHelper.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:51:24.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "StatisticsServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:52:37.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "TeacherServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowE4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T07:43:26.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClassRoom.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\ClassRoom.cs",
-              "RelativeDocumentMoniker": "Models\\ClassRoom.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\ClassRoom.cs",
-              "RelativeToolTip": "Models\\ClassRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:03:38.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TeacherMap.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\TeacherMap.cs",
-              "RelativeDocumentMoniker": "Mappings\\TeacherMap.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\TeacherMap.cs",
-              "RelativeToolTip": "Mappings\\TeacherMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:03:49.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ITeacherService.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\ITeacherService.cs",
-              "RelativeDocumentMoniker": "Contracts\\Services\\ITeacherService.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\ITeacherService.cs",
-              "RelativeToolTip": "Contracts\\Services\\ITeacherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:03:53.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IStatisticsService.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStatisticsService.cs",
-              "RelativeDocumentMoniker": "Contracts\\Services\\IStatisticsService.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStatisticsService.cs",
-              "RelativeToolTip": "Contracts\\Services\\IStatisticsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:12:48.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IClassRoomService.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IClassRoomService.cs",
-              "RelativeDocumentMoniker": "Contracts\\Services\\IClassRoomService.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IClassRoomService.cs",
-              "RelativeToolTip": "Contracts\\Services\\IClassRoomService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:12:52.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TeacherDto.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\TeacherDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Data\\TeacherDto.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\TeacherDto.cs",
-              "RelativeToolTip": "Contracts\\Data\\TeacherDto.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAywAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:16:20.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ClassRoomDto.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\ClassRoomDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Data\\ClassRoomDto.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\ClassRoomDto.cs",
-              "RelativeToolTip": "Contracts\\Data\\ClassRoomDto.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwBUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:10:59.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CommonDtos.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\CommonDtos.cs",
-              "RelativeDocumentMoniker": "Contracts\\Data\\CommonDtos.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\CommonDtos.cs",
-              "RelativeToolTip": "Contracts\\Data\\CommonDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:11:09.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\appsettings.json",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-04T08:09:13.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MappingExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:07:12.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "StatisticsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:05:37.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ClassRoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:05:31.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 6,
               "Title": "ITeacherRepository.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\ITeacherRepository.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\IRepositories\\ITeacherRepository.cs",
@@ -680,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 7,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\IRepositories\\IStudentRepository.cs",
@@ -692,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 8,
               "Title": "IStatisticsRepository.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IStatisticsRepository.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\IRepositories\\IStatisticsRepository.cs",
@@ -704,15 +307,411 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "StudentInputModel.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\ViewModels\\StudentInputModel.cs",
+              "DocumentIndex": 9,
+              "Title": "IClassRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:04:39.962Z"
+              "WhenOpened": "2025-06-04T06:51:39.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NHibernateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Data\\NHibernateHelper.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:51:24.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\StudentServiceImpl.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswG8AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:08:19.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Contracts\\Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Contracts\\Services\\IStudentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:12:40.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetStudentsByClassRoomRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
+              "RelativeToolTip": "Contracts\\Data\\GetStudentsByClassRoomRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:48:37.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentDetailView.razor",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\StudentDetailView.razor",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:48:48.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClassRoomsList.razor",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:41:20.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClassRoomsList.razor.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\ClassRoomsList.razor.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCoAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:30:10.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\StudentDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Data\\StudentDto.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\StudentDto.cs",
+              "RelativeToolTip": "Contracts\\Data\\StudentDto.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:11:24.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Program.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:09:56.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:40:41.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\TeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:40:16.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClassRoomMap.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\ClassRoomMap.cs",
+              "RelativeDocumentMoniker": "Mappings\\ClassRoomMap.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\ClassRoomMap.cs",
+              "RelativeToolTip": "Mappings\\ClassRoomMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T01:40:57.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StudentMap.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\StudentMap.cs",
+              "RelativeDocumentMoniker": "Mappings\\StudentMap.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\StudentMap.cs",
+              "RelativeToolTip": "Mappings\\StudentMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:03:51.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditClassRoom.razor",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T01:37:46.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClassRoomServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\ClassRoomServiceImpl.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:05:42.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:03:43.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditClassRoom.razor.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\ClassRoom\\EditClassRoom.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:21:46.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddStudent.razor",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Student\\AddStudent.razor",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:47:38.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SchoolDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
+              "RelativeToolTip": "..\\SchoolGRPC.BlazorUI\\Components\\Pages\\Charts\\SchoolDashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:04:14.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StatisticsServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\StatisticsServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T06:52:37.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TeacherServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\TeacherServiceImpl.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:43:26.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ClassRoom.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\ClassRoom.cs",
+              "RelativeDocumentMoniker": "Models\\ClassRoom.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Models\\ClassRoom.cs",
+              "RelativeToolTip": "Models\\ClassRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:03:38.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TeacherMap.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\TeacherMap.cs",
+              "RelativeDocumentMoniker": "Mappings\\TeacherMap.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Mappings\\TeacherMap.cs",
+              "RelativeToolTip": "Mappings\\TeacherMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:03:49.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ITeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\ITeacherService.cs",
+              "RelativeDocumentMoniker": "Contracts\\Services\\ITeacherService.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\ITeacherService.cs",
+              "RelativeToolTip": "Contracts\\Services\\ITeacherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:03:53.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IStatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStatisticsService.cs",
+              "RelativeDocumentMoniker": "Contracts\\Services\\IStatisticsService.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IStatisticsService.cs",
+              "RelativeToolTip": "Contracts\\Services\\IStatisticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:12:48.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IClassRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IClassRoomService.cs",
+              "RelativeDocumentMoniker": "Contracts\\Services\\IClassRoomService.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Services\\IClassRoomService.cs",
+              "RelativeToolTip": "Contracts\\Services\\IClassRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:12:52.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TeacherDto.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\TeacherDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Data\\TeacherDto.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\TeacherDto.cs",
+              "RelativeToolTip": "Contracts\\Data\\TeacherDto.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAywAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:16:20.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ClassRoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\ClassRoomDto.cs",
+              "RelativeDocumentMoniker": "Contracts\\Data\\ClassRoomDto.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\ClassRoomDto.cs",
+              "RelativeToolTip": "Contracts\\Data\\ClassRoomDto.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwBUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:10:59.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CommonDtos.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\CommonDtos.cs",
+              "RelativeDocumentMoniker": "Contracts\\Data\\CommonDtos.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Shared\\Contracts\\Data\\CommonDtos.cs",
+              "RelativeToolTip": "Contracts\\Data\\CommonDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:11:09.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\appsettings.json",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T08:09:13.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Services\\MappingExtensions.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:07:12.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "StatisticsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\StatisticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:05:37.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ClassRoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
+              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
+              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
+              "RelativeToolTip": "..\\SchoolGRPC.Server\\Repositories\\ClassRoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:05:31.976Z"
             },
             {
               "$type": "Document",
@@ -740,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.BlazorUI\\Program.cs",
               "RelativeDocumentMoniker": "..\\SchoolGRPC.BlazorUI\\Program.cs",
@@ -749,18 +748,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T07:41:33.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IClassRoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
-              "RelativeDocumentMoniker": "..\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
-              "ToolTip": "C:\\Users\\truon\\source\\repos\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
-              "RelativeToolTip": "..\\SchoolGRPC.Server\\IRepositories\\IClassRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:51:39.245Z"
             },
             {
               "$type": "Document",
