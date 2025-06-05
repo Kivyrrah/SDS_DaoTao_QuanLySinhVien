@@ -1,55 +1,43 @@
 ﻿@page "/students/byclassroom/{ClassRoomId:int}"
+@inject IStudentService StudentClient 
+@inject IClassRoomService ClassRoomClient 
+@inject NavigationManager NavigationManager
 @rendermode InteractiveServer
 
-<h3>Danh sách Sinh viên @(string.IsNullOrEmpty(currentClassRoomName) ? "" : $"Lớp: {currentClassRoomName}")</h3>
-
-@if (students == null && !loadFailed && !classRoomLoadFailed)
+@if (isLoadingClassRoomInfo || isLoadingStudents)
 {
-    <p><em>Đang tải...</em></p>
-}
-else if (loadFailed)
-{
-    <p class="text-danger"><em>Lỗi tải danh sách sinh viên: @errorMessage</em></p>
+    <p><em>Đang tải... <Spin /></em></p>
 }
 else if (classRoomLoadFailed)
 {
-    <p class="text-danger"><em>Lỗi tải thông tin lớp học: @classRoomErrorMessage</em></p>
+    <Alert Message="Lỗi" Description="@classRoomErrorMessage" Type="@AlertType.Error" ShowIcon="true" />
+    <button class="btn btn-primary mt-2" @onclick="GoToClassRoomList">Quay lại DS Lớp học</button>
 }
-else if (currentClassRoom == null)
+else if (currentClassRoom == null) 
 {
-    <p><em>Không tìm thấy thông tin lớp học.</em></p>
+    <Alert Message="Thông báo" Description="Không tìm thấy thông tin lớp học." Type="@AlertType.Warning" ShowIcon="true" />
+    <button class="btn btn-primary mt-2" @onclick="GoToClassRoomList">Quay lại DS Lớp học</button>
 }
-else
+else 
 {
+    <h3>Danh sách Học sinh Lớp: @currentClassRoom.Name (@currentClassRoom.Subject) - GV: @currentClassRoom.TeacherName</h3>
+    <hr />
     <button class="btn btn-secondary mb-3" @onclick="GoToClassRoomList">Quay lại DS Lớp học</button>
-    @if (students != null && students.Any())
+
+    @if (studentLoadFailed)
     {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Tên Sinh viên</th>
-                    <th>Ngày sinh</th>
-                    <th>Địa chỉ</th>
-                    <th>Giáo viên lớp</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var student in students)
-                {
-                    <tr>
-                        <td>@student.Id</td>
-                        <td>@student.Name</td>
-                        <td>@student.Birthday.ToString("dd/MM/yyyy")</td>
-                        <td>@student.Address</td>
-                        <td>@student.TeacherNameViaClassroom</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+        <Alert Message="Lỗi" Description="@studentErrorMessage" Type="@AlertType.Error" ShowIcon="true" />
+    }
+    else if (studentsList == null || !studentsList.Any())
+    {
+        <Empty Description=@("Lớp này hiện chưa có học sinh nào.") />
     }
     else
     {
-        <p><em>Lớp này chưa có sinh viên nào.</em></p>
+        <Table DataSource="@studentsList" Class="mt-3" TItem="StudentDto" Bordered="true" Size="TableSize.Small">
+            <AntDesign.Column @bind-Field="@context.Id" Title="ID" Sortable="true" />
+            <AntDesign.Column @bind-Field="@context.Name" Title="Tên Học sinh" Sortable="true" />
+            <AntDesign.Column @bind-Field="@context.Address" Title="Địa chỉ" />
+        </Table>
     }
 }

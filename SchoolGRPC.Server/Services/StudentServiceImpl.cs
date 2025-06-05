@@ -103,5 +103,26 @@ namespace SchoolGRPC.Server.Services
             await _studentRepository.DeleteAsync(request.Id);
             return new DeleteResponseDto { Success = true, Message = "Student deleted successfully." };
         }
+
+        public async Task<StudentListResponseDto> GetStudentsByClassRoomAsync(GetStudentsByClassRoomRequestDto request)
+        {
+            _logger.LogInformation("GetStudentsByClassRoomAsync called for ClassRoomID: {ClassRoomId}", request.ClassRoomId);
+            if (request.ClassRoomId <= 0)
+            {
+                _logger.LogWarning("Invalid ClassRoomId received: {ClassRoomId}", request.ClassRoomId);
+                return new StudentListResponseDto { Students = new List<StudentDto>() };
+            }
+
+            var studentsInDomain = await _studentRepository.GetByClassRoomIdAsync(request.ClassRoomId);
+
+            var response = new StudentListResponseDto();
+            if (studentsInDomain != null)
+            {
+                response.Students.AddRange(studentsInDomain.Select(s => s.ToDto()));
+            }
+
+            _logger.LogInformation("Found {StudentCount} students for ClassRoomID: {ClassRoomId}", response.Students.Count, request.ClassRoomId);
+            return response;
+        }
     }
 }

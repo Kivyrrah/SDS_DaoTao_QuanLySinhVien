@@ -40,7 +40,7 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.ClassRoom
 
         void GoToAddClassRoom() => NavigationManager.NavigateTo("/classrooms/add");
         void GoToEditClassRoom(int id) => NavigationManager.NavigateTo($"/classrooms/edit/{id}");
-        //void ViewStudentsInClass(int classRoomId) => NavigationManager.NavigateTo($"/students/byclassroom/{classRoomId}");
+        void ViewStudentsInClass(int classRoomId) => NavigationManager.NavigateTo($"/students/byclassroom/{classRoomId}");
 
 
         async Task DeleteClassRoom(int id)

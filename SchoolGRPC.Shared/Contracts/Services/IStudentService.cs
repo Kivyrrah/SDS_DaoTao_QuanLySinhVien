@@ -17,7 +17,7 @@ namespace SchoolGRPC.Shared.Contracts.Services
         Task<StudentDto> UpdateStudentAsync(UpdateStudentRequestDto request);
         [OperationContract]
         Task<DeleteResponseDto> DeleteStudentAsync(GetByIdRequestDto request);
-        //[OperationContract]
-        //Task<StudentListResponseDto> GetStudentsByClassRoomAsync(GetStudentsByClassRoomRequestDto request);
+        [OperationContract]
+        Task<StudentListResponseDto> GetStudentsByClassRoomAsync(GetStudentsByClassRoomRequestDto request);
     }
 }

@@ -22,12 +22,9 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
         [Inject]
         public NavigationManager NavigationManager { get; set; }
 
-        // SỬA: Bỏ khai báo teachersList bị trùng và sai kiểu ở dòng ~40
-        // Danh sách giáo viên cho dropdown (đã được sửa ở dưới)
         private List<TeacherDto> teachersList = new List<TeacherDto>();
         private int _selectedTeacherId;
 
-        // SỬA: Kiểu dữ liệu cho chartData
         private List<ChartDataItemDto> chartData = new List<ChartDataItemDto>();
         private BarConfig barChartConfig = new BarConfig();
 
@@ -36,49 +33,45 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
         private string pageErrorMessage = string.Empty;
         private string chartErrorMessage = string.Empty;
 
-        // Khai báo teachersList ở đây là đúng và duy nhất
-        // private List<TeacherDto> teachersList = new List<TeacherDto>(); // Đã có ở trên, không cần dòng này nữa
-
-
         protected override async Task OnInitializedAsync()
         {
             isLoadingTeachers = true;
             try
             {
-                var response = await TeacherClient.GetAllTeachersAsync(); // Không cần new Empty()
+                var response = await TeacherClient.GetAllTeachersAsync(); 
                 if (response != null && response.Teachers != null)
                 {
                     teachersList = response.Teachers.ToList();
                 }
                 else
                 {
-                    teachersList = new List<TeacherDto>(); // Khởi tạo rỗng nếu response null
+                    teachersList = new List<TeacherDto>(); 
                 }
             }
             catch (Exception ex)
             {
                 pageErrorMessage = $"Lỗi tải danh sách giáo viên: {ex.Message}";
-                teachersList = new List<TeacherDto>(); // Khởi tạo rỗng khi có lỗi
+                teachersList = new List<TeacherDto>(); 
             }
             finally
             {
                 isLoadingTeachers = false;
             }
-            ConfigureInitialChart(); // Gọi sau khi đã có teachersList (dù có thể rỗng)
+            ConfigureInitialChart(); 
         }
 
-        private async Task OnTeacherSelectedHandler(TeacherDto? selectedTeacher) // Cho phép selectedTeacher là null khi Clear
+        private async Task OnTeacherSelectedHandler(TeacherDto? selectedTeacher) 
         {
             if (selectedTeacher != null)
             {
                 _selectedTeacherId = selectedTeacher.Id;
                 await LoadChartDataForTeacher(_selectedTeacherId);
             }
-            else // Xảy ra khi người dùng Clear lựa chọn trong Select (AllowClear="true")
+            else 
             {
-                _selectedTeacherId = 0; // Hoặc giá trị mặc định phù hợp
+                _selectedTeacherId = 0; 
                 chartData.Clear();
-                ConfigureChartForSelectedTeacher(); // Cập nhật tiêu đề biểu đồ cho trạng thái "chưa chọn"
+                ConfigureChartForSelectedTeacher(); 
                 StateHasChanged();
             }
         }
@@ -88,8 +81,8 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
             if (teacherId <= 0)
             {
                 chartData = new List<ChartDataItemDto>();
-                chartErrorMessage = string.Empty; // Xóa lỗi cũ nếu có
-                ConfigureChartForSelectedTeacher(); // Cập nhật tiêu đề
+                chartErrorMessage = string.Empty; 
+                ConfigureChartForSelectedTeacher(); 
                 StateHasChanged();
                 return;
             }
@@ -108,8 +101,7 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
                     chartData = response.DataPoints.ToList();
                     if (!chartData.Any())
                     {
-                        // Không ghi đè chartErrorMessage nếu không có dữ liệu, Empty component sẽ xử lý
-                        // chartErrorMessage = "Không có dữ liệu lớp học/học sinh cho giáo viên này.";
+                        
                     }
                 }
                 else
@@ -127,12 +119,12 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
             finally
             {
                 isLoadingChart = false;
-                ConfigureChartForSelectedTeacher(); // Luôn cập nhật cấu hình/tiêu đề biểu đồ
+                ConfigureChartForSelectedTeacher(); 
                 StateHasChanged();
             }
         }
 
-        private void ConfigureInitialChart() // Đổi tên cho rõ nghĩa hơn là cấu hình chung
+        private void ConfigureInitialChart() 
         {
             var titleText = "Số lượng Sinh viên theo Lớp học (Chọn giáo viên để xem)";
             if (_selectedTeacherId > 0 && teachersList.Any())
@@ -143,7 +135,7 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
                     titleText = $"Số lượng Sinh viên theo Lớp - GV: {selectedTeacherName}";
                 }
                 else if (_selectedTeacherId > 0)
-                { // TeacherId được chọn nhưng không tìm thấy tên (ít xảy ra nếu teachersList đúng)
+                {
                     titleText = $"Số lượng Sinh viên theo Lớp - GV ID: {_selectedTeacherId}";
                 }
             }
@@ -155,26 +147,23 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Charts
                     Visible = true,
                     Text = titleText
                 },
-                // Đối với Bar chart (thanh ngang):
-                // YField là trục danh mục (Tên Lớp)
-                // XField là trục giá trị (Số lượng Sinh viên)
                 YField = "xAxisCategory",
                 XField = "yAxisValue",
-                AutoFit = true, // Nên có để biểu đồ tự điều chỉnh
+                AutoFit = true, 
 
                 Meta = new Dictionary<string, IMeta>
-        {
-            { "xAxisCategory", new Meta { Alias = "Lớp học" } },
-            { "yAxisValue", new Meta { Alias = "Số lượng sinh viên" } }
-        },
-                Legend = new Legend { Visible = false }, // Thường không cần legend nếu chỉ có 1 series dữ liệu chính
+                {
+                    { "xAxisCategory", new Meta { Alias = "Lớp học" } },
+                    { "yAxisValue", new Meta { Alias = "Số lượng sinh viên" } }
+                },
+                Legend = new Legend { Visible = false }, 
 
                 Label = new BarViewConfigLabel
                 {
                     Visible = true,
                     Position = "right",
                 },
-                Tooltip = new AntDesign.Charts.Tooltip { ShowTitle = true } // Giữ lại ShowTitle
+                Tooltip = new AntDesign.Charts.Tooltip { ShowTitle = true } 
             };
         }
 

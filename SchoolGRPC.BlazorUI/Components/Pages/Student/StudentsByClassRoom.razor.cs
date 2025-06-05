@@ -13,68 +13,92 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Student
         [Parameter]
         public int ClassRoomId { get; set; }
 
-        [Inject]
-        public IClassRoomService ClassRoomClient { get; set; } = default!;
-
-        [Inject]
-        public IStudentService StudentClient { get; set; } = default!;
-
-        [Inject]
-        public NavigationManager NavigationManager { get; set; }
-
-        private List<StudentDto>? students;
+        // SỬA: Dùng StudentDto
+        private List<StudentDto>? studentsList;
         private ClassRoomDto? currentClassRoom;
-        private string currentClassRoomName = string.Empty;
 
-        private bool loadFailed = false;
-        private string errorMessage = string.Empty;
+        private bool isLoadingStudents = true;
+        private bool studentLoadFailed = false;
+        private string studentErrorMessage = string.Empty;
+
+        private bool isLoadingClassRoomInfo = true;
         private bool classRoomLoadFailed = false;
         private string classRoomErrorMessage = string.Empty;
 
-
-        protected override async Task OnInitializedAsync()
+        protected override async Task OnParametersSetAsync() 
         {
-            await LoadClassRoomInfo();
-            if (!classRoomLoadFailed)
+            await LoadClassRoomInformation();
+            if (currentClassRoom != null && !classRoomLoadFailed) 
             {
-                // await LoadStudents();
+                await LoadStudentsForClassRoom();
+            }
+            else if (currentClassRoom == null && !classRoomLoadFailed) 
+            {
+                isLoadingStudents = false; 
             }
         }
 
-        private async Task LoadClassRoomInfo()
+        private async Task LoadClassRoomInformation()
         {
+            isLoadingClassRoomInfo = true;
+            classRoomLoadFailed = false;
+            currentClassRoom = null; 
             try
             {
-                currentClassRoom = await ClassRoomClient.GetClassRoomByIdAsync(new GetByIdRequestDto { Id = ClassRoomId });
-                if (currentClassRoom != null)
+                var request = new GetByIdRequestDto { Id = ClassRoomId };
+                currentClassRoom = await ClassRoomClient.GetClassRoomByIdAsync(request);
+                if (currentClassRoom == null)
                 {
-                    currentClassRoomName = $"{currentClassRoom.Name} ({currentClassRoom.Subject})";
+                    classRoomErrorMessage = $"Không tìm thấy thông tin cho lớp học có ID: {ClassRoomId}.";
+                    _logger.LogWarning(classRoomErrorMessage);
                 }
-                classRoomLoadFailed = false;
             }
             catch (Exception ex)
             {
                 classRoomLoadFailed = true;
                 classRoomErrorMessage = $"Lỗi tải thông tin lớp học: {ex.Message}";
+                _logger.LogError(ex, "Lỗi khi LoadClassRoomInformation cho ClassRoomID: {ClassRoomId}", ClassRoomId);
+            }
+            finally
+            {
+                isLoadingClassRoomInfo = false;
             }
         }
 
-        /* private async Task LoadStudents()
+        private async Task LoadStudentsForClassRoom()
         {
+            isLoadingStudents = true;
+            studentLoadFailed = false;
+            studentsList = null; 
             try
             {
-                var response = await StudentClient.GetStudentsByClassRoomAsync(new GetStudentsByClassRoomRequestDto { ClassroomId = ClassRoomId });
-                students = response.Students.ToList();
-                loadFailed = false;
+                var request = new GetStudentsByClassRoomRequestDto { ClassRoomId = this.ClassRoomId };
+                var response = await StudentClient.GetStudentsByClassRoomAsync(request);
+
+                if (response != null && response.Students != null)
+                {
+                    studentsList = response.Students;
+                }
+                else
+                {
+                    studentsList = new List<StudentDto>(); 
+                }
             }
             catch (Exception ex)
             {
-                loadFailed = true;
-                errorMessage = $"Lỗi tải danh sách sinh viên: {ex.Message}";
-                students = new List<StudentDto>();
+                studentLoadFailed = true;
+                studentErrorMessage = $"Lỗi tải danh sách học sinh: {ex.Message}";
+                studentsList = new List<StudentDto>(); 
+                _logger.LogError(ex, "Lỗi khi LoadStudentsForClassRoom cho ClassRoomID: {ClassRoomId}", ClassRoomId);
             }
-        } */
+            finally
+            {
+                isLoadingStudents = false;
+            }
+        }
 
         void GoToClassRoomList() => NavigationManager.NavigateTo("/classrooms");
+
+        [Inject] ILogger<StudentsByClassRoom> _logger { get; set; } = default!;
     }
 }
