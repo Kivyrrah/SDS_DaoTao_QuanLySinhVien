@@ -10,7 +10,6 @@
 <Row Gutter="16">
     <Col Span="24" Style="margin-bottom: 16px;">
         <Text>Chọn Giáo viên để xem thống kê:</Text>
-        @* SỬA TItem, ValueName, LabelName *@
         <Select TItem="TeacherDto" 
                 TItemValue="int" 
                 DataSource="@teachersList"
@@ -31,7 +30,7 @@
         @if (isLoadingChart)
         {
             <div style="text-align: center; padding: 50px;">
-                <Spin Size="@SpinSize.Large" Tip="Đang tải dữ liệu biểu đồ..." /> @* SpinSize.Large là Enum *@
+                <Spin Size="@SpinSize.Large" Tip="Đang tải dữ liệu biểu đồ..." />
             </div>
         }
         else if (!string.IsNullOrEmpty(chartErrorMessage))

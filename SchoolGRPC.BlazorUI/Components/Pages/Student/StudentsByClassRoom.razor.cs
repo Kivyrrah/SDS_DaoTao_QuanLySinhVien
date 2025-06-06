@@ -22,7 +22,6 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Student
         [Inject]
         public NavigationManager NavigationManager { get; set; }
 
-        // SỬA: Dùng StudentDto
         private List<StudentDto>? studentsList;
         private ClassRoomDto? currentClassRoom;
 
@@ -34,14 +33,14 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Student
         private bool classRoomLoadFailed = false;
         private string classRoomErrorMessage = string.Empty;
 
-        protected override async Task OnParametersSetAsync() 
+        protected override async Task OnParametersSetAsync()
         {
             await LoadClassRoomInformation();
-            if (currentClassRoom != null && !classRoomLoadFailed) 
+            if (currentClassRoom != null && !classRoomLoadFailed)
             {
                 await LoadStudentsForClassRoom();
             }
-            else if (currentClassRoom == null && !classRoomLoadFailed) 
+            else if (currentClassRoom == null && !classRoomLoadFailed)
             {
                 isLoadingStudents = false; 
             }

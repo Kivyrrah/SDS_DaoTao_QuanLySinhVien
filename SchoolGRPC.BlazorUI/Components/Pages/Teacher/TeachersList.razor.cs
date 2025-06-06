@@ -61,7 +61,7 @@ namespace SchoolGRPC.BlazorUI.Components.Pages.Teacher
                         errorMessage = response.Message;
                     }
                 }
-                catch (Exception ex) 
+                catch (Exception ex)
                 {
                     errorMessage = $"Lỗi khi xóa: {ex.Message}";
                 }

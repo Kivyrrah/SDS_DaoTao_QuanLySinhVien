@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SchoolGRPC.Server.Services
 {
-    public class StatisticsServiceImpl : IStatisticsService 
+    public class StatisticsServiceImpl : IStatisticsService
     {
         private readonly IStatisticsRepository _statisticsRepository;
         private readonly ILogger<StatisticsServiceImpl> _logger;
